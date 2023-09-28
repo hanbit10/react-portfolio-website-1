@@ -26,21 +26,21 @@ function Footer() {
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
       </ul>
-      <div className="footer_socials">
-        <a href="https://facebook.com">
+      {/* <div className="footer_socials">
+        <a href="https://www.facebook.com/profile.php?id=100009105508533">
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/jang.beat/?hl=en">
           <FaInstagram />
         </a>
         <a href="https://twitter.com">
           <FaTwitter />
         </a>
-      </div>
+      </div> */}
 
       <div className="footer_copyright">
         <small>&copy; Hanbit Chang Portfolio. All rights reserved</small>

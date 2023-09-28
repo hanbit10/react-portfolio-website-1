@@ -68,7 +68,7 @@ function Experience() {
             <article className="experience_details">
               <BsCheckCircleFill className="experience_details-icon" />
               <div>
-                <h4>MySQL</h4>
+                <h4>MongoDB</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
@@ -89,29 +89,29 @@ function Experience() {
               </div>
             </article>
 
-            <article className="experience_details">
+            {/* <article className="experience_details">
               <BsCheckCircleFill className="experience_details-icon" />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Beginner</small>
               </div>
-            </article>
+            </article> */}
 
-            <article className="experience_details">
+            {/* <article className="experience_details">
               <BsCheckCircleFill className="experience_details-icon" />
               <div>
                 <h4>Angular</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article>
+            </article> */}
 
-            <article className="experience_details">
+            {/* <article className="experience_details">
               <BsCheckCircleFill className="experience_details-icon" />
               <div>
                 <h4>React</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>

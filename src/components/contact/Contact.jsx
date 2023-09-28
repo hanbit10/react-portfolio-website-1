@@ -38,46 +38,39 @@ function Contact() {
             <h5>chanbit10@gmail.com</h5>
             <a href="mailto:chanbit10@gmail.com">Send A Message</a>
           </article>
-          <article className="contact_option">
+          {/* <article className="contact_option">
             <AiOutlineMail className="contact_option-icon" />
             <h4>Messenger</h4>
             <h5>chanbit10@gmail.com</h5>
             <a href="mailto:chanbit10@gmail.com">Send A Message</a>
-          </article>
+          </article> */}
           <article className="contact_option">
             <BiLogoWhatsapp className="contact_option-icon" />
             <h4>WhatsAPP</h4>
-            <h5>chanbit10@gmail.com</h5>
-            <a href="https://api.whatsapp.com/send?phone=+4915774128843">
-              Send A Message
-            </a>
+            {/* <h5>chanbit10@gmail.com</h5> */}
+            <a href="https://wa.me/+4915774128843">Chat Me</a>
           </article>
-          <form ref={form} onSubmit={sendEmail}>
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Full Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-            />
-            <textarea
-              name="message"
-              id=""
-              cols="30"
-              rows="7"
-              placeholder="Your Message"
-              required
-            ></textarea>
-            <button type="submit" className="btn btn-primary">
-              Send Message
-            </button>
-          </form>
         </div>
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="7"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
+        </form>
       </div>
     </section>
   );
