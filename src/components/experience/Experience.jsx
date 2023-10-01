@@ -15,7 +15,7 @@ function Experience() {
               <BsCheckCircleFill className="experience_details-icon" />
               <div>
                 <h4>HTML/CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Advanced</small>
               </div>
             </article>
 
