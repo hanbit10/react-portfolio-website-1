@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/hanbitcut.png";
+import AVTR1 from "../../assets/biverse.jpg";
 import AVTR2 from "../../assets/1bit logo example.png";
 import AVTR3 from "../../assets/0025_23 222.jpg";
 
